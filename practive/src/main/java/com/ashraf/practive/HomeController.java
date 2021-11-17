@@ -10,6 +10,7 @@ public class HomeController {
 	public String home(Model model)
 	{
 		
+		System.out.println("hiii every one ");
 		System.out.println("This is my view page created by ashraf nomani");
 		model.addAttribute("name", "NomaniTechnology");
 		model.addAttribute("id", 123455);
